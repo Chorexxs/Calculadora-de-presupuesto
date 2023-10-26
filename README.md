@@ -9,13 +9,20 @@ Este programa de Python permite a los usuarios realizar un seguimiento de sus in
 - Calcula el presupuesto restando los gastos totales a los ingresos.
 - Muestra un resumen del presupuesto mensual, incluyendo los ingresos, los gastos por categoría, el total de gastos y el presupuesto restante.
 
+## Requisitos
+
+- Python 3.x instalado en tu sistema.
+- Las siguientes bibliotecas Python: `csv`, `os`, y `matplotlib`.
+
 ## Uso
 
 1. Ejecuta el programa en Python.
-2. Se te solicitará que ingreses el total de tus ingresos mensuales.
-3. A continuación, ingresarás los gastos por categoría. Para cada categoría, ingresa el nombre de la categoría y el monto del gasto.
-4. Cuando hayas terminado de ingresar los gastos, ingresa "fin" como categoría para finalizar el ingreso de gastos.
-5. El programa calculará el presupuesto y mostrará un resumen con los detalles.
+2. Elige si deseas cargar un presupuesto existente o crear uno nuevo.
+3. Si decides crear uno nuevo, ingresa tus ingresos mensuales y luego registra tus gastos por categoría. Para finalizar el registro de gastos, ingresa "fin".
+4. El programa mostrará un resumen del presupuesto mensual, incluyendo ingresos, gastos por categoría, el total de gastos y el presupuesto restante.
+5. Además, se generará un gráfico de barras que muestra la distribución de gastos por categoría.
+6. Si decides cargar un presupuesto existente, proporciona el nombre del archivo CSV que contiene los datos.
+7. El programa cargará los datos y mostrará el resumen del presupuesto cargado desde el archivo.
 
 ## Ejemplo
 
